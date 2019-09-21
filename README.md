@@ -13,3 +13,5 @@ therefore it is better to mock the other services using tool like Wiremock.
 - record the responses from the service to mock see http://wiremock.org/docs/running-standalone/
 - Build the docke image using the Dockerfile "docker build -t mockbackend ." dont forget to copy the mappings & __files
 - Run your container          "docker run -d -p 8080:8080 mockbackend"
+
+if you are using Kubernetes its very easy to swap between  external services and the Mock Service. 
