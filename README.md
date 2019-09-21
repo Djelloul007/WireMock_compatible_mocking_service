@@ -15,3 +15,7 @@ therefore it is better to mock the other services using tool like Wiremock.
 - Run your container          "docker run -d -p 8080:8080 mockbackend"
 
 if you are using Kubernetes its very easy to swap between  external services and the Mock Service. 
+
+
+happy testing
+your Dj :)
