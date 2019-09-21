@@ -8,6 +8,13 @@ even though Although your goal was to test your available service.
 this unsatisfactory situation.
 therefore it is better to mock the other services using tool like Wiremock.
 
+# Benefits of using a mock server
+● Reliability
+● Determinism
+● Avoid rate limits and server costs
+● Cover edge cases and error scenarios
+● Speed
+
 # How it work ?
 
 - record the responses from the service to mock see http://wiremock.org/docs/running-standalone/
