@@ -16,6 +16,8 @@ therefore it is better to mock the other services using tool like Wiremock.
 
 if you are using Kubernetes its very easy to swap between  external services and the Mock Service. 
 
+# very important 
+It is very important that you keep your test data (Mock Data) regularly up to date.
 
 happy testing
 your Dj :)
