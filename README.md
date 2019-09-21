@@ -23,6 +23,13 @@ therefore it is better to mock the other services using tool like Wiremock.
 - Has an active developers community
 - easy to build your own docker image
 
+# Pros & Cons of this approach
+- Testing the network layer
+- Real conditions
+- Easy to maintain
+- Easy to simulate scenarios
+- Can be shared
+
 # How it work ?
 
 - record the responses from the service to mock see http://wiremock.org/docs/running-standalone/  --proxy-all --record-mappings
