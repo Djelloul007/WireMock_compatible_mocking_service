@@ -24,12 +24,15 @@ therefore it is better to mock the other services using tool like Wiremock.
 - easy to build your own docker image
 
 # Pros & Cons of this approach
--- Pros
+#  Pros
 - Testing the network layer
 - Real conditions
 - Easy to maintain
 - Easy to simulate scenarios
 - Can be shared
+#  Cons
+- Data expiration
+- Stubs validity
 
 # How it work ?
 
