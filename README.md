@@ -48,5 +48,7 @@ the Wiremock Chrome extension help you to managing your Wiremock stubs. https://
 # very important 
 It is very important that you keep your test data (Mock Data) regularly up to date.
 
+http://wiremock.org/external-resources/
+
 happy testing
 your Dj :)
