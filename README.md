@@ -15,6 +15,14 @@ therefore it is better to mock the other services using tool like Wiremock.
 - Cover edge cases and error scenarios
 - Speed
 
+# Why WireMock?
+- Can run on a JVM device or as a standalone service
+- Can run as a proxy
+- Can record and playback the recorded files
+- Can be extended to support more features
+- Has an active developers community
+- easy to build your own docker image
+
 # How it work ?
 
 - record the responses from the service to mock see http://wiremock.org/docs/running-standalone/
