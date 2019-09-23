@@ -36,7 +36,7 @@ therefore it is better to mock the other services using tool like Wiremock.
 
 # How it work ?
 
-- record the responses from the service to mock see http://wiremock.org/docs/running-standalone/  --port 8080 --proxy-all --record-mappings
+- record the responses from the service to mock see http://wiremock.org/docs/running-standalone/  --port 8080 --proxy-all --record-mappings   example   java -jar wiremock-standalone-2.24 --proxy-all http://yourtargetservice --record-mappings
 - Build the docke image using the Dockerfile "docker build -t mockbackend ." dont forget to copy the mappings & __files
 - Run your container          "docker run -d -p 8080:8080 mockbackend"
 
